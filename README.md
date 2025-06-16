@@ -10,8 +10,9 @@ A simple and stylish currency converter web app that allows users to convert bet
 - Instantly see the converted result
 - Real-time exchange rates via **RapidAPI**
 
-[Live Demo] (https://currency-converter-sable-phi-44.vercel.app/)
-## 🧠 How It Works
+## 🔗 Live Demo
+  (https://currency-converter-sable-phi-44.vercel.app/)
+## How It Works
 
 1. **Enter an amount** in the input field.
 2. **Select the base currency** (the currency you're converting *from*).
