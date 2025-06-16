@@ -1,4 +1,4 @@
-# 💱 Currency Converter Web App
+# Currency Converter Web App
 
 A simple and stylish currency converter web app that allows users to convert between different currencies using real-time exchange rates from [RapidAPI](https://rapidapi.com/).
 
