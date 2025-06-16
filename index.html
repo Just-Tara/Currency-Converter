@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Currency Converter</title>
+</head>
+<body>
+    
+    <div class="floating-symbols">
+        <div class="symbol" style="left: 5%; animation-duration: 12s; animation-delay: 0s;">$</div>
+        <div class="symbol" style="left: 12%; animation-duration: 18s; animation-delay: 2s;">€</div>
+        <div class="symbol" style="left: 20%; animation-duration: 20s; animation-delay: 4s;">₦</div>
+        <div class="symbol" style="left: 28%; animation-duration: 17s; animation-delay: 3s;">£</div>
+        <div class="symbol" style="left: 36%; animation-duration: 14s; animation-delay: 1s;">¥</div>
+        <div class="symbol" style="left: 44%; animation-duration: 22s; animation-delay: 6s;">₹</div>
+        <div class="symbol" style="left: 52%; animation-duration: 19s; animation-delay: 2s; ">₩</div>
+        <div class="symbol" style="left: 60%; animation-duration: 21s; animation-delay: 5s; ">₽</div>
+        <div class="symbol" style="left: 68%; animation-duration: 16s; animation-delay: 3s;">₴</div>
+        <div class="symbol" style="left: 76%; animation-duration: 13s; animation-delay: 0s; ">฿</div>
+        <div class="symbol" style="left: 84%; animation-duration: 24s; animation-delay: 7s; ">₺</div>
+        <div class="symbol" style="left: 92%; animation-duration: 15s; animation-delay: 2s; ">₪</div>
+        <div class="symbol" style="left: 30%; animation-duration: 18s; animation-delay: 1s; ">₡</div>
+        <div class="symbol" style="left: 50%; animation-duration: 23s; animation-delay: 4s;">₫</div>
+        <div class="symbol" style="left: 70%; animation-duration: 20s; animation-delay: 6s;">₵</div>
+        </div>
+        <div class="converter-box">
+            <h2>Currency Converter</h2> 
+                <input type="number" class="amount-input" placeholder="Enter amount" />
+                
+                <div class="custom-dropdown" id="from-dropdown"></div>
+                <div class="custom-dropdown" id="to-dropdown"></div>
+                
+                <button class="convert-button">Convert</button>
+                <div class="result"></div>
+     </div> 
+    
+        <script src="./scripts/exchageRate.js" type="module"></script>
+</body>
+</html>
